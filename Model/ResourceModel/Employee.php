@@ -15,5 +15,7 @@ class Employee extends \Magento\Eav\Model\Entity\AbstractEntity
 		if (empty($this->_type)){
 			$this->setType(\Atopt\Office\Model\Employee::ENTITY);
 		}
+		
+		return parent::getEntityType();
 	}
 }
