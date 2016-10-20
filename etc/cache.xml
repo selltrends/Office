@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+    <type name="atopt_office"
+          instance="Atopt\Office\Model\Cache">
+        <label>Atopt Office Example</label>
+        <description>Example cache from Atopt Office module.</description>
+    </type>
+</config>
